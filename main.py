@@ -3,7 +3,7 @@
 from settings import settings
 if settings["sender"] == "telegram":
     from settings import tg
-    from modules.alerter-tg import alerter
+    from modules.alertertg import alerter
 
 from modules.du import du
 from modules.la import la
