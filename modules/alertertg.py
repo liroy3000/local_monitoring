@@ -3,7 +3,7 @@
 def alerter(tg, message):
     import requests
 
-    format_message = "Server name: " + tg["server_name"]
+    format_message = "Server name: " + tg["server_name"] + "\n"
     for i in message:
         format_message = format_message + i + ": " + str(message[i]) + "\n"
 
