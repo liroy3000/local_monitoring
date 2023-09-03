@@ -21,5 +21,6 @@ settings = {
 tg = {
     "token": "",
     "chat_id": "",
+    "server_name": "myhost",  # с какого сервера приходят уведомления
 
 }
